@@ -1,0 +1,82 @@
+div{
+  width: 500px;
+  height: 500px;
+  border: solid rgb(182, 123, 132);
+  background-color: rgb(211, 161, 168);
+  margin:auto;
+  margin-top: 50px;
+}
+.cuerpo2{
+  background-color: rgb(211, 134, 160);
+  border: solid 1px gray;
+  height: 85%;
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boton{
+  height: 100%;
+  width: 100%;
+  color: gray;
+  background-color: rgb(207, 173, 178);
+  border: solid gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: bold;
+}
+.pantalla{
+  height: 100%;
+  width: 100%;
+  border: solid gray 5px;
+
+}
+#lugar{
+  height: 150px;
+}
+body{
+  background-image: url(flori.jpg);
+}
+@media screen and (max-width:400px){
+  div{
+    width: 250px;
+    height: 250px;
+    border: solid rgb(163, 14, 37);
+    background-color: rgb(18, 12, 13);
+    margin:auto;
+    margin-top: 50px;
+}
+.cuerpo2{
+  background-color: rgb(147, 21, 63);
+  border: solid 1px rgb(10, 6, 6);
+  height: 85%;
+  width: 85%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lugar{
+  height: 80px;
+}
+.boton{
+  height: 100%;
+  width: 100%;
+  color: rgb(244, 242, 242);
+  background-color: rgb(167, 5, 29);
+  border: solid rgb(15, 6, 6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: bold;
+}
+.pantalla{
+  height: 100%;
+  width: 100%;
+  border: solid rgb(11, 6, 6) 5px;
+  background-color: rgb(165, 31, 31);
+
+}
+body{
+  background-image: url(hell.jpg);
+}
+}

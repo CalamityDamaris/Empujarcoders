@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(199, 165, 171);
+}
+h1{
+    
+font-family: 'Indie Flower', cursive;
+font-size: 50px;
+font-weight: bolder;
+color:rgb(77, 50, 56);
+text-decoration: underline;
+display: flex;
+justify-content: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculadora{
+    display: flex;
+    
+}

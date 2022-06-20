@@ -16,8 +16,36 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
+    
 }
 .calculadora{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(163, 87, 110);
+    border: 5px solid rgb(77, 50, 56);
+    border-radius: 32px;
+
+}
+.pantalla{
+    width: 90%;
+    height: 30%;
+    border: 5px solid rgb(77, 50, 56);
+    border-radius: 32px;
+    margin: 10px 10px 10px 20px;
+
+}.botones{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
     display: flex;
+    flex-wrap: wrap;
+
+}
+.numero{
+    
+    height:15% ;
+    width:15%;
+    
     
 }
